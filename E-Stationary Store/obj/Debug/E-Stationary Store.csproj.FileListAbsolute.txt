@@ -1,0 +1,49 @@
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\E-Stationary Store.dll.config
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\E-Stationary Store.dll
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\E-Stationary Store.pdb
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\roslyn\csc.exe
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\roslyn\csc.exe.config
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\roslyn\csc.rsp
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\roslyn\csi.exe
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\roslyn\csi.rsp
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\roslyn\System.AppContext.dll
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\roslyn\vbc.exe
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\roslyn\vbc.exe.config
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\roslyn\vbc.rsp
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\obj\Debug\E-Stationary Store.csproj.AssemblyReference.cache
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\obj\Debug\E-Stationary Store.csproj.CoreCompileInputs.cache
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\obj\Debug\E-Stationary Store.csproj.CopyComplete
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\obj\Debug\E-Stationary Store.dll
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\obj\Debug\E-Stationary Store.pdb
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Sakshi Kashte\Desktop\sycs programs\E-Stationary Store\E-Stationary Store\bin\stdole.dll

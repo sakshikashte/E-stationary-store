@@ -1,0 +1,408 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="E_Stationary_Store.Site1" %>
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+   <title>E-Stationary Store</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Dream life Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Custom Theme files -->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">   
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="all" property="" /> 
+<!-- //Custom Theme files -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- js -->
+<script src="js/jquery-2.2.3.min.js"></script> 
+<!-- //js -->
+<!-- smooth scrolling -->
+<!-- web-fonts --> 
+<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    
+	<!-- bootstrap code for button -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <!-- banner -->
+  
+	<div class="banner" style="background: url('stationary2.jpg ');background-repeat:no-repeat;background-repeat:no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    min-height: 790px;
+    position: relative">  
+		<div class="header agileinfo-header"><!-- header -->
+			<nav class="navbar navbar-default">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<h1><a href="">E-Stationary   Store</a></h1>
+					</div> 
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-left"> 
+							<li><a href="WebForm1.aspx" class="w3ls-hover active">Home</a></li>
+							<li><a href="About Us.aspx" class="btn w3ls-hover">About Us</a></li>   
+							<li><a href="Contact us.aspx" class="btn w3ls-hover">Contact Us</a></li>
+							<li><a href="SignUp adminUser.aspx" class="btn w3ls-hover">Sign Up</a></li>
+							<li><a href="LoginAdminUser.aspx" class="btn w3ls-hover">Login</a></li>
+						    
+						</ul>	   
+						<div class="social-icon">
+							<a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a> 
+							<a href="#" class="social-button twitter"><i class="fa fa-twitter"></i></a> 
+							<a href="#" class="social-button google"><i class="fa fa-instagram"></i></a>  
+						</div> 
+						<div class="clearfix"> </div>
+					</div><!-- //navbar-collapse --> 
+				</div><!-- //container-fluid -->
+			</nav>
+		</div><!-- //header -->	
+		<div class="Container">
+		
+		</div>
+		<!-- banner-text -->
+		<div class="banner-text"> 
+			<div class="container">
+				<div class="flexslider">
+					
+					<ul class="slides">
+						<li>
+							<div class="banner-w3lstext">
+								<h3>User Friendly</h3>
+								<p>Anyone can buy product it is user userfriendly.</p>
+							<div class="w3-button">
+						       
+						    <div class="clearfix"> </div>
+
+							</div>
+							</div>
+						</li>
+						<li>
+							<div class="banner-w3lstext">
+								<h3 style="text-align:center">Save Time</h3>
+								<p>Save the Valuable time of customer</p>
+								<div class="w3-button">
+						      
+						    <div class="clearfix"> </div>
+
+							</div>
+							</div>
+						</li>
+						<li>
+							<div class="banner-w3lstext">
+								<h3>Offer Flexibility </h3>
+								<p>Customer can easily buy product</p>
+								<div class="w3-button">
+						      
+						    <div class="clearfix"> </div>
+
+							</div>
+							</div>
+						</li>
+					</ul> 
+				</div> 	 
+			</div>
+		</div>
+		<!-- //banner-text -->    
+	</div>
+	<!-- modal popup -->
+<!-- modal -->
+	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog" style="left: 0; right: 1015px; top: 0; bottom: 538px">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header"> 
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+					<h4 class="modal-title">Dream <span>Life</span></h4>
+				</div> 
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="images/modal1.jpg" alt="" />
+						<p>Duis venenatis, turpis eu bibendum porttitor, sapien quam ultricies tellus, ac rhoncus risus odio eget nunc. Pellentesque ac fermentum diam. Integer eu facilisis nunc, a iaculis felis. Pellentesque pellentesque tempor enim, in dapibus turpis porttitor quis. Suspendisse ultrices hendrerit massa. Nam id metus id tellus ultrices ullamcorper.  Cras tempor massa luctus, varius lacus sit amet, blandit lorem. Duis auctor in tortor sed tristique. Proin sed finibus sem</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //modal -->
+<!-- //modal popup -->
+
+	<!-- //banner --> 
+	<!-- banner-bottom -->
+	<div class="banner-bottom">
+		<h2 style="text-align:center;color:#F2184F;font:bold">OUR SERVICES</h2><br /><br />
+			<div class="col-md-4 agileits_banner_bottom_left">
+				<div class="agileinfo_banner_bottom_pos">
+					<div class="w3_agileits_banner_bottom_pos_grid">
+						<div class="col-xs-3 wthree_banner_bottom_grid_left">
+							<div class="agile_banner_bottom_grid_left_grid hvr-radial-out">
+								<span class="fa fa-laptop" aria-hidden="true"></span>
+							</div>
+						</div>
+						<div class="col-xs-9 wthree_banner_bottom_grid_right">
+							<h4>24/7 DAYS ACCESSIBLE</h4>
+							
+
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 agileits_banner_bottom_left">
+				<div class="agileinfo_banner_bottom_pos">
+					<div class="w3_agileits_banner_bottom_pos_grid">
+						<div class="col-xs-3 wthree_banner_bottom_grid_left">
+							<div class="agile_banner_bottom_grid_left_grid hvr-radial-out">
+								<span class="fa fa-pencil" aria-hidden="true"></span>
+							</div>
+						</div>
+						<div class="col-xs-9 wthree_banner_bottom_grid_right">
+							<h4>EASY TO HANDLE</h4>
+							
+
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 agileits_banner_bottom_left">
+				<div class="agileinfo_banner_bottom_pos">
+					<div class="w3_agileits_banner_bottom_pos_grid">
+						<div class="col-xs-3 wthree_banner_bottom_grid_left">
+							<div class="agile_banner_bottom_grid_left_grid hvr-radial-out">
+								<span class="fa fa-mobile" aria-hidden="true"></span>
+							</div>
+						</div>
+						<div class="col-xs-9 wthree_banner_bottom_grid_right">
+							<h4>EASY TO ACCESS DATA</h4>
+							
+
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+
+			<div class="clearfix"> </div>
+	</div>
+	<!-- //banner-bottom -->
+	<!-- testimonials -->
+	<div class="testimonials">
+	   <div class="test_agile_info">
+		<div class="container">
+			<ul id="flexiselDemo1">			
+				<li>
+					<div class="wthree_testimonials_grid_main">
+						<div class="wthree_testimonials_grid">
+							<h4>What Client say</h4>
+							<p>It was amazing to buy your products.</p>
+								<h5>ARBEENA WAVAGHARKAR</h5>
+							<div class="wthree_testimonials_grid_pos">
+								<img src="images/t11.jpg" alt=" " class="img-responsive" />
+							</div>
+						</div>
+					
+					</div>
+				</li>
+				<li>
+					<div class="wthree_testimonials_grid_main">
+						<div class="wthree_testimonials_grid">
+							<h4>What Client say</h4>
+							<p>Quality of product is Excellent.</p>
+								<h5>SAQUIB KHALFE</h5>
+							<div class="wthree_testimonials_grid_pos">
+								<img src="images/t22.jpg" alt=" " class="img-responsive" />
+							</div>
+						</div>
+					
+					</div>
+				</li>
+				<li>
+					<div class="wthree_testimonials_grid_main">
+						<div class="wthree_testimonials_grid">
+							<h4>What Client say</h4>
+							<p>Nice Product.</p>
+								
+								<h5>ASHISH KASHTE</h5>
+							<div class="wthree_testimonials_grid_pos">
+								<img src="images/t33.jpg" alt=" " class="img-responsive" />
+							</div>
+						</div>
+						
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- //testimonials -->
+
+
+<!-- footer start here -->
+	<div class="footer-agile">
+		<div class="container">
+			<div class="footer-btm-agileinfo">
+				<div class="col-md-3 col-xs-3 footer-grid w3social">
+
+					<h3>Our Links</h3>
+					<ul>
+						    <li><a href="WebForm1.aspx" >Home</a></li>
+							<li><a href="About Us.aspx" >About Us</a></li>   
+							<li><a href="Contact us.aspx">Contact Us</a></li>
+							<li><a href="SignUp adminUser.aspx" >Sign Up</a></li>
+							<li><a href="LoginAdminUser.aspx" >Login</a></li>
+						    
+					</ul>
+				</div>
+				<div class="col-md-3 col-xs-3 footer-grid">
+					<h3>Contact Info</h3>
+					<ul>
+						<li><i class="fa fa-map-marker"></i>+012 345 6789</li>
+						
+						<li><i class="fa fa-phone"></i>8010088049, Ratnagiri.</li>
+						<li><i class="fa fa-envelope-o"></i><a href="mailto:sakshikashte67@gmail.com">sakshikashte67@gmail.com</a></li>
+					</ul>
+				</div>
+				<div class="col-md-6 col-xs-6 footer-grid footer-review">
+					<h3>About us</h3>
+					<p>E-Stationary Store helps to buy Stationary products online. It saves the time of the customer. It helps to easy to access data of 
+						products. The system is open 24 hours and is accessible locally ,nationally and globally. These system is more user friendly, reliable and flexible.
+					</p>
+					
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="footer-agilem">
+				<div class="col-sm-8 col-xs-9 copy-w3lsright">
+					<p>© 2022 E-STATIONARY STORE. All rights reserved | Design by <a href="#">S@kshi Kashte</a></p>
+				</div>
+				<div class="col-sm-4 col-xs-3 social-w3licon">
+					<a href="#" class="social-button twitter"><i class="fa fa-twitter"></i></a>
+					<a href="#" class="social-button facebook"><i class="fa fa-facebook"></i></a>
+					<a href="#" class="social-button google"><i class="fa fa-instagram"></i></a>
+					
+				</div>
+				<div>
+				
+		<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+		</div>
+	<!-- //footer end here -->
+
+	<!-- FlexSlider --> 
+	<script defer src="js/jquery.flexslider.js"></script>
+		<script type="text/javascript">
+			$(window).load(function(){
+			  $('.flexslider').flexslider({
+				animation: "slide",
+				start: function(slider){
+				  $('body').removeClass('loading');
+				}
+			  });
+			});
+		</script>
+	<!-- End-slider-script --> 
+<!-- Flexisel-js for-testimonials -->
+<script type="text/javascript">
+							$(window).load(function() {
+								$("#flexiselDemo1").flexisel({
+									visibleItems:1,
+									animationSpeed: 1000,
+									autoPlay: false,
+									autoPlaySpeed: 3000,    		
+									pauseOnHover: true,
+									enableResponsiveBreakpoints: true,
+									responsiveBreakpoints: { 
+										portrait: { 
+											changePoint:480,
+											visibleItems: 1
+										}, 
+										landscape: { 
+											changePoint:640,
+											visibleItems:1
+										},
+										tablet: { 
+											changePoint:768,
+											visibleItems: 1
+										}
+									}
+								});
+								
+							});
+					</script>
+					<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+<!-- Flexisel-js for-testimonials -->
+
+	
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<!-- stats -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.countup.js"></script>
+	<script>
+		$('.counter').countUp();
+	</script>
+	<!-- //stats -->
+<!-- start-smooth-scrolling -->
+<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>	
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+			
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- //end-smooth-scrolling   -->	
+	<!-- smooth-scrolling-of-move-up -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+    </script>
+	<!-- //smooth-scrolling-of-move-up -->   
+    <script src="js/bootstrap.js"></script>
+
+        
+</body>
+</html>

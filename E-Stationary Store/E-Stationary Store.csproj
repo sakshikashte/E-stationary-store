@@ -1,0 +1,600 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2CAB0E62-4DF0-49B7-A83E-4A9FBD7D99B3}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>E_Stationary_Store</RootNamespace>
+    <AssemblyName>E-Stationary Store</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44347</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About Us.aspx" />
+    <Content Include="Add Product details.aspx" />
+    <Content Include="AddtoCart.aspx" />
+    <Content Include="admin contact details.aspx" />
+    <Content Include="Admin CustomerFeedback.aspx" />
+    <Content Include="admin login.aspx" />
+    <Content Include="admin order.aspx" />
+    <Content Include="Admin panel.aspx" />
+    <Content Include="Admin Payment details.aspx" />
+    <Content Include="admin Product Details.aspx" />
+    <Content Include="Admin signup.aspx" />
+    <Content Include="App_Data\Stationary.mdf" />
+    <Content Include="App_Data\Stationary_log.ldf">
+      <DependentUpon>Stationary.mdf</DependentUpon>
+    </Content>
+    <Content Include="brush.jpg" />
+    <Content Include="brush2.jpg" />
+    <Content Include="buy now.jpg" />
+    <Content Include="combo - Copy.jpg" />
+    <Content Include="combo pens.jpg" />
+    <Content Include="combo.jpg" />
+    <Content Include="Contact us.aspx" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\easy-responsive-tabs.css" />
+    <Content Include="css\flexslider.css" />
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\jquery-ui.css" />
+    <Content Include="css\simpleLightbox.css" />
+    <Content Include="css\style.css" />
+    <Content Include="Customer Details.aspx" />
+    <Content Include="defualt.aspx" />
+    <Content Include="dirary - Copy.jpg" />
+    <Content Include="dirary.jpg" />
+    <Content Include="Display Products.aspx" />
+    <Content Include="Feedback Form.aspx" />
+    <Content Include="file.jpg" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="images\ab2.jpg" />
+    <Content Include="images\b12.jpg" />
+    <Content Include="images\c-arrows.png" />
+    <Content Include="images\c5.jpg" />
+    <Content Include="images\g1.jpg" />
+    <Content Include="images\g2.jpg" />
+    <Content Include="images\g3.jpg" />
+    <Content Include="images\g4.jpg" />
+    <Content Include="images\g5.jpg" />
+    <Content Include="images\g6.jpg" />
+    <Content Include="images\g7.jpg" />
+    <Content Include="images\g8.jpg" />
+    <Content Include="images\g9.jpg" />
+    <Content Include="images\icons.png" />
+    <Content Include="images\left.png" />
+    <Content Include="images\modal1.jpg" />
+    <Content Include="images\move-up1.png" />
+    <Content Include="images\overlay.png" />
+    <Content Include="images\right.png" />
+    <Content Include="images\s2.jpg" />
+    <Content Include="images\stat1.jpg" />
+    <Content Include="images\t11.jpg" />
+    <Content Include="images\t2.jpg" />
+    <Content Include="images\t22.jpg" />
+    <Content Include="images\t33.jpg" />
+    <Content Include="images\tm1.jpg" />
+    <Content Include="images\tm2.jpg" />
+    <Content Include="images\tm3.jpg" />
+    <Content Include="images\tm4.jpg" />
+    <Content Include="images\tmm1.jpg" />
+    <Content Include="images\tmm2.jpg" />
+    <Content Include="images\tmm3.jpg" />
+    <Content Include="images\tmm4.jpg" />
+    <Content Include="images\t_bg3.jpg" />
+    <Content Include="img\add to cart.jpg" />
+    <Content Include="img\brush.jpg" />
+    <Content Include="img\brush2.jpg" />
+    <Content Include="img\combo pens.jpg" />
+    <Content Include="img\combo.jpg" />
+    <Content Include="img\dirary.jpg" />
+    <Content Include="img\file.jpg" />
+    <Content Include="img\notebook.jpg" />
+    <Content Include="img\pad.jpg" />
+    <Content Include="img\pen2.jpg" />
+    <Content Include="img\pencil color.jpg" />
+    <Content Include="img\stationary1.jpg" />
+    <Content Include="img\stationary2.jpg" />
+    <Content Include="img\stationary4.jpg" />
+    <Content Include="img\stitonary3.jpg" />
+    <Content Include="img\watercolor.jpg" />
+    <Content Include="img\wc2.jpg" />
+    <Content Include="js\bootstrap - Copy.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="css\css\bootstrap.css" />
+    <Content Include="css\css\easy-responsive-tabs.css" />
+    <Content Include="css\css\flexslider.css" />
+    <Content Include="css\css\font-awesome.css" />
+    <Content Include="css\css\jquery-ui.css" />
+    <Content Include="css\css\simpleLightbox.css" />
+    <Content Include="css\css\style.css" />
+    <Content Include="js\easing - Copy.js" />
+    <Content Include="js\easing.js" />
+    <Content Include="js\easy-responsive-tabs - Copy.js" />
+    <Content Include="js\easy-responsive-tabs.js" />
+    <Content Include="js\jquery-2.2.3.min - Copy.js" />
+    <Content Include="js\jquery-2.2.3.min.js" />
+    <Content Include="js\jquery-ui - Copy.js" />
+    <Content Include="js\jquery-ui.js" />
+    <Content Include="js\jquery.countup - Copy.js" />
+    <Content Include="js\jquery.countup.js" />
+    <Content Include="js\jquery.flexisel - Copy.js" />
+    <Content Include="js\jquery.flexisel.js" />
+    <Content Include="js\jquery.flexslider - Copy.js" />
+    <Content Include="js\jquery.flexslider.js" />
+    <Content Include="js\jquery.waypoints.min.js" />
+    <Content Include="js\move-top.js" />
+    <Content Include="js\simpleLightbox.js" />
+    <Content Include="js\SmoothScroll.min.js" />
+    <Content Include="Login form.aspx" />
+    <Content Include="LoginAdminUser.aspx" />
+    <Content Include="notebook.jpg" />
+    <Content Include="pad.jpg" />
+    <Content Include="Payment Details.aspx" />
+    <Content Include="Payment Mode.aspx" />
+    <Content Include="payment.aspx" />
+    <Content Include="pen1.jpg" />
+    <Content Include="pen2.jpg" />
+    <Content Include="pencil color.jpg" />
+    <Content Include="pexels-pixabay-207665.jpg" />
+    <Content Include="ProductDetails.aspx" />
+    <Content Include="SignUp adminUser.aspx" />
+    <Content Include="Signup.aspx" />
+    <Content Include="signuupp.jpg" />
+    <Content Include="stationary2.jpg" />
+    <Content Include="stationary4.jpg" />
+    <Content Include="style2\css3\bootstrap.css" />
+    <Content Include="style2\css3\demo-page.css" />
+    <Content Include="style2\css3\examples.css" />
+    <Content Include="style2\css3\font-awesome.css" />
+    <Content Include="style2\css3\geochart.css" />
+    <Content Include="style2\css3\hover.css" />
+    <Content Include="style2\css3\magnific-popup.css" />
+    <Content Include="style2\css3\style.css" />
+    <Content Include="style2\fonts3\fontawesome-webfont.svg" />
+    <Content Include="style2\fonts3\glyphicons-halflings-regular.svg" />
+    <Content Include="style2\images3\1.jpg" />
+    <Content Include="style2\images3\404.png" />
+    <Content Include="style2\images3\b3.png" />
+    <Content Include="style2\images3\climate.jpg" />
+    <Content Include="style2\images3\close.png" />
+    <Content Include="style2\images3\ftr-icons.png" />
+    <Content Include="style2\images3\icon.png" />
+    <Content Include="style2\images3\login.jpg" />
+    <Content Include="style2\images3\mess.png" />
+    <Content Include="style2\images3\next.png" />
+    <Content Include="style2\images3\p1.png" />
+    <Content Include="style2\images3\p2.png" />
+    <Content Include="style2\images3\p3.png" />
+    <Content Include="style2\images3\p4.png" />
+    <Content Include="style2\images3\p5.png" />
+    <Content Include="style2\images3\p6.png" />
+    <Content Include="style2\images3\p7.png" />
+    <Content Include="style2\images3\p8.png" />
+    <Content Include="style2\images3\prev.png" />
+    <Content Include="style2\images3\pro1.jpg" />
+    <Content Include="style2\images3\pro10.jpg" />
+    <Content Include="style2\images3\pro12.jpg" />
+    <Content Include="style2\images3\pro2.jpg" />
+    <Content Include="style2\images3\pro3.jpg" />
+    <Content Include="style2\images3\pro4.jpg" />
+    <Content Include="style2\images3\pro5.jpg" />
+    <Content Include="style2\images3\pro6.jpg" />
+    <Content Include="style2\images3\pro7.jpg" />
+    <Content Include="style2\images3\pro8.jpg" />
+    <Content Include="style2\images3\pro9.jpg" />
+    <Content Include="style2\images3\reg.png" />
+    <Content Include="style2\images3\search.png" />
+    <Content Include="style2\images3\shoppy.jpg" />
+    <Content Include="style2\images3\tick.png" />
+    <Content Include="style2\images3\visit.png" />
+    <Content Include="style2\js3\bars.js" />
+    <Content Include="style2\js3\bootstrap.js" />
+    <Content Include="style2\js3\Chart.min.js" />
+    <Content Include="style2\js3\chartinator.js" />
+    <Content Include="style2\js3\gmaps.js" />
+    <Content Include="style2\js3\jquery-2.1.1.min.js" />
+    <Content Include="style2\js3\jquery.magnific-popup.js" />
+    <Content Include="style2\js3\jquery.nicescroll.js" />
+    <Content Include="style2\js3\modernizr.min.js" />
+    <Content Include="style2\js3\nivo-lightbox.min.js" />
+    <Content Include="style2\js3\scripts.js" />
+    <Content Include="style2\js3\skycons.js" />
+    <Content Include="Style\1_2UlYtG42tpsGF5peC11iPg.jpeg" />
+    <Content Include="Style\1_TFzPjQhLG3Y0FKSmlLJ9Hw.jpeg" />
+    <Content Include="Style\Screenshot 2022-08-03 183509.png" />
+    <Content Include="Style\Screenshot 2022-08-03 183808.png" />
+    <Content Include="Style\th %2813%29.jpg" />
+    <Content Include="Style\th %2814%29.jpg" />
+    <Content Include="Style\th %2815%29.jpg" />
+    <Content Include="Style\th %284%29.jpg" />
+    <Content Include="Thank You page.aspx" />
+    <Content Include="thank.jpg" />
+    <Content Include="thank3.jpg" />
+    <Content Include="View Product.aspx" />
+    <Content Include="watercolor.jpg" />
+    <Content Include="wc2.jpg" />
+    <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About Us.aspx.cs">
+      <DependentUpon>About Us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About Us.aspx.designer.cs">
+      <DependentUpon>About Us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Add Product details.aspx.cs">
+      <DependentUpon>Add Product details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Add Product details.aspx.designer.cs">
+      <DependentUpon>Add Product details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Added Products.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Added Products.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AddtoCart.aspx.cs">
+      <DependentUpon>AddtoCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddtoCart.aspx.designer.cs">
+      <DependentUpon>AddtoCart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin contact details.aspx.cs">
+      <DependentUpon>admin contact details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin contact details.aspx.designer.cs">
+      <DependentUpon>admin contact details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin CustomerFeedback.aspx.cs">
+      <DependentUpon>Admin CustomerFeedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin CustomerFeedback.aspx.designer.cs">
+      <DependentUpon>Admin CustomerFeedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin login.aspx.cs">
+      <DependentUpon>admin login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin login.aspx.designer.cs">
+      <DependentUpon>admin login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin order.aspx.cs">
+      <DependentUpon>admin order.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin order.aspx.designer.cs">
+      <DependentUpon>admin order.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin panel.aspx.cs">
+      <DependentUpon>Admin panel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin panel.aspx.designer.cs">
+      <DependentUpon>Admin panel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Payment details.aspx.cs">
+      <DependentUpon>Admin Payment details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin Payment details.aspx.designer.cs">
+      <DependentUpon>Admin Payment details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin Product Details.aspx.cs">
+      <DependentUpon>admin Product Details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin Product Details.aspx.designer.cs">
+      <DependentUpon>admin Product Details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin signup.aspx.cs">
+      <DependentUpon>Admin signup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin signup.aspx.designer.cs">
+      <DependentUpon>Admin signup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact us.aspx.cs">
+      <DependentUpon>Contact us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact us.aspx.designer.cs">
+      <DependentUpon>Contact us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contact.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>contact.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Customer Details.aspx.cs">
+      <DependentUpon>Customer Details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Customer Details.aspx.designer.cs">
+      <DependentUpon>Customer Details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Customer Details.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Customer Details.rpt</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="defualt.aspx.cs">
+      <DependentUpon>defualt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="defualt.aspx.designer.cs">
+      <DependentUpon>defualt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Display Products.aspx.cs">
+      <DependentUpon>Display Products.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Display Products.aspx.designer.cs">
+      <DependentUpon>Display Products.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Feedback Form.aspx.cs">
+      <DependentUpon>Feedback Form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Feedback Form.aspx.designer.cs">
+      <DependentUpon>Feedback Form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Feedback.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Feedback.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Login form.aspx.cs">
+      <DependentUpon>Login form.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login form.aspx.designer.cs">
+      <DependentUpon>Login form.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginAdminUser.aspx.cs">
+      <DependentUpon>LoginAdminUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginAdminUser.aspx.designer.cs">
+      <DependentUpon>LoginAdminUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Payment Details.aspx.cs">
+      <DependentUpon>Payment Details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Payment Details.aspx.designer.cs">
+      <DependentUpon>Payment Details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Payment Mode.aspx.cs">
+      <DependentUpon>Payment Mode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Payment Mode.aspx.designer.cs">
+      <DependentUpon>Payment Mode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="payment.aspx.cs">
+      <DependentUpon>payment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="payment.aspx.designer.cs">
+      <DependentUpon>payment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Payment.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProductDetails.aspx.cs">
+      <DependentUpon>ProductDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductDetails.aspx.designer.cs">
+      <DependentUpon>ProductDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SignUp adminUser.aspx.cs">
+      <DependentUpon>SignUp adminUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUp adminUser.aspx.designer.cs">
+      <DependentUpon>SignUp adminUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Signup.aspx.cs">
+      <DependentUpon>Signup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Signup.aspx.designer.cs">
+      <DependentUpon>Signup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Thank You page.aspx.cs">
+      <DependentUpon>Thank You page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Thank You page.aspx.designer.cs">
+      <DependentUpon>Thank You page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View Product.aspx.cs">
+      <DependentUpon>View Product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View Product.aspx.designer.cs">
+      <DependentUpon>View Product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="img\notebook2.webp" />
+    <Content Include="notebook2.webp" />
+    <None Include="packages.config" />
+    <Content Include="Site1.Master" />
+    <Content Include="signup.webp" />
+    <Content Include="style2\fonts3\fontawesome-webfont.eot" />
+    <Content Include="style2\fonts3\fontawesome-webfont.ttf" />
+    <Content Include="style2\fonts3\fontawesome-webfont.woff" />
+    <Content Include="style2\fonts3\fontawesome-webfont.woff2" />
+    <Content Include="style2\fonts3\FontAwesome.otf" />
+    <Content Include="style2\fonts3\glyphicons-halflings-regular.eot" />
+    <Content Include="style2\fonts3\glyphicons-halflings-regular.ttf" />
+    <Content Include="style2\fonts3\glyphicons-halflings-regular.woff" />
+    <Content Include="style2\fonts3\glyphicons-halflings-regular.woff2" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Added Products.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Added Products.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="contact.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>contact.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer Details.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Customer Details.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Feedback.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Feedback.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Payment.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>61561</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44347/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
